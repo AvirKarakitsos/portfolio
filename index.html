@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Portfolio</title>
+</head>
+<body>
+	<header class="header">
+		<div>
+			<button class="btn btnLang langFr">FR</button>
+			<button class="btn btnLang langEn">EN</button>
+		</div>
+		<div>
+			<button class="btn btnMode Dark">Dark Mode</button>
+			<button class="btn btnMode Light">Light Mode</button>
+		</div>
+	</header>
+	<section>
+		<div class="frame"></div>
+		<div class="section_left"></div>
+		<div class="section_right">
+			<div>
+				<h1>Avir Karakitsos</h1>
+				<p>32 ans</p>
+				<p>En reconversion développeur web</p>
+			</div>
+			<div>
+				<p>Quelques projets disponibles sur mon github ou en scrollant sur cette page</p>
+			</div>
+			<ul class="links">
+				<li><a href="https://github.com/AvirKarakitsos" target="_blank"><img src="images/github.png" alt=""></a></li>
+				<li><a href="https://www.instagram.com/avir.karakitsos" target="_blank"><img src="images/insta.png" alt=""></a></li>
+				<li><a href="https://twitter.com/AvirKarakitsos" target="_blank"><img src="images/twitter.png" alt=""></a></li>
+				<li><img onclick="alert('avir.karakitsos@gmail.com')" src="images/gmail.png" alt=""></li>
+			</ul>
+		</div>
+	</section>
+	<main>
+		<div class="box">
+			<a href="https://github.com/AvirKarakitsos/JSnba" target="_blank">
+				<img src="images/js.png" alt="">
+				<div>
+					<h3>Javascript</h3>
+					<p>Affiche les statistiques sur une saison d'un joueur NBA grâce à l'API disponible sur <i>balldontlie.io</i></p><br/>
+					<p><b>Tags:</b><span> JS, API</span>
+				</div>
+			</a>
+		</div>
+		<div class="box">
+			<a href="https://github.com/AvirKarakitsos/JSextensionchrome" target="_blank">
+				<img src="images/extension.png" alt="">
+				<div>
+					<h3>Javascript</h3>
+					<p>Extension à installer sur un navigateur chrome. Ajout de l'overley croix bleue qui permet de marquer un temps sur une vidéo youtube (uniquement). Possibilité de revenir à cette marque ou de le supprimer.</p><br/>
+					<p><b>Tags:</b><span> JS, API Chrome, Manifest v.3</span>
+				</div>
+			</a>
+		</div>
+		<div class="box">
+			<a href="https://github.com/AvirKarakitsos/VUEautomate" target="_blank">
+				<img src="images/vue.png" alt ="">
+				<div>
+					<h3>Vue</h3>
+					<p>Le jeu de la vie consiste à regarder l'évolution d'un automate cellulaire au cours du temps selon des règles simples. L'utilisateur peut voir l'évolution de l'automate selon le nombre d'itérations choisi. Il peut également modifier la taille de la grille.</p><br/>
+					<p><b>Tags:</b><span> Vue 3, Options API</span></p>
+				</div>
+			</a>
+		</div>
+		<div class="box">
+			<a href="https://github.com/AvirKarakitsos/VUEtimeline" target="_blank">
+				<img src="images/timeline.png" alt ="">
+				<div>
+					<h3>Vue</h3>
+					<p>Frise chronologique représentant 60 mathématiciens abordés dans les 60 livres de la collection <b>Génies des mathématiques</b> publiée par "Le Monde". Vous pouvez cliquer sur un  nom pour voir sa fiche récapitulative. <span>En savoir plus</span> mène sur une page avec la couverture du livre et son résumé.
+					</p><br/>
+					<p><b>Tags:</b><span> Vue 3, Options API, router, canvas</span></p>
+				</div>
+			</a>
+		</div>
+		<div class="box">
+			<a href="https://github.com/AvirKarakitsos/PHPchat" target="_blank">
+				<img src="images/php.png" alt="">
+				<div>
+					<h3>PHP</h3>
+					<p>Après s'être enregistré, vous pouvez voir la liste des utilisateurs inscrits et leurs envoyer des messages privés avec actualisation instantanée.</p><br/>
+					<p><b>Tags:</b><span> PHP v.8.3.1, MVC, register, login, MySQL, jQuery</span></p>
+				</div>
+			</a>
+		</div>
+		<div class="box">
+			<a href="https://github.com/AvirKarakitsos/LARAVELpost" target="_blank">
+				<img src="images/laravel.png" alt="">
+				<div>
+					<h3>Laravel</h3>
+					<p>Un site pour poster une nouvelle. Système d'authentification avec <i>laravel/breeze</i>. Site en français ou en anglais.</p><br/>
+					<p><b>Tags:</b><span> Laravel v.8.75, breeze, CRUD, middlewares, admin, Tailwind css</span></p>
+				</div>
+			</a>
+		</div>
+	</main>
+	<script src="service.js"></script>
+</body>
+</html>
